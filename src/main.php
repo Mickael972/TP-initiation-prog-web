@@ -1,4 +1,6 @@
 <?php
+    //require_once __DIR__ . '/vendor/autoload.php';
+    
     //récupération du paramètre who dans l'url
     $who = isset($_GET['who']) ? $_GET['who'] : null;
 
