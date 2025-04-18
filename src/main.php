@@ -71,7 +71,7 @@
         </ul>
         <div>
             <?php if ($displayImage): ?>
-                <p>Voici l'image de <?= htmlspecialchars($who) ?> :</p>
+                <p>Voici l'image d' <?= htmlspecialchars($who) ?> :</p>
             <img src="<?= htmlspecialchars($displayImage) ?>" alt="Image de <?= htmlspecialchars($who) ?>" width="200" height="200">
             <?php else: ?>
                 <p style="color=red;"><?= htmlspecialchars($errormessage) ?></p>
